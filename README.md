@@ -7,7 +7,7 @@ The reason why I choose MERN, as a javascript developer, I especially specialize
 
 The backend is implemented using Node, Express and Mongoose.
 And I chose Mongodb, because Mongo is very ideal for the structure of the file given.
-And as the file is json structured, so with Mongo, it is very easy to populate the database with this file using the functionality provided by Mongoose.
+And as the file is json structured, so with Mongo, it is very easy to populate the database from this file using the functionality provided by Mongoose.
 
 ### Client
 

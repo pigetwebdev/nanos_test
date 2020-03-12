@@ -1,12 +1,12 @@
-FROM node
+FROM node:10-alpine
 
 WORKDIR /server
 
-COPY package.json /server/
+COPY package.json .
 
 RUN npm install
 # RUN npm run test
 
-COPY . /server/
+COPY . .
 
 CMD ["node", "app.js"]
